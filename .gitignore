@@ -1,0 +1,18 @@
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.terraform.lock.hcl
+
+# Sensitive keys
+*.pem
+*.key
+*.crt
+
+# System/editor files
+*.log
+*.zip
+*.deb
+.cache/
+.config/
+.vscode/
